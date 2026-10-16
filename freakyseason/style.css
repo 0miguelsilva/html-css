@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  background: #0d0d0d;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  min-height: 150px;
+  height: 100vh;
+ 
+}
+header > p{
+    max-width: 600px;
+    position: absolute;
+    top: 400px;
+    left: 35px;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  color: #e63946;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
